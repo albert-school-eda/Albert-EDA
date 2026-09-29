@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MarketLens | Weekly competitor price watch</title>
+  <link rel="stylesheet" href="../shared/style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <main class="shell">
+    <p class="eyebrow">Controlled teaching source · MarketLens</p>
+    <h1>Competitor subscription prices</h1>
+    <p>Reference: 16 September 2026, 09:00 CEST. Monthly EUR prices, standard offers, taxes included. Illustrative synthetic data.</p>
+    <aside class="notice" aria-label="Source information">Source: MarketLens teaching dashboard. No official download or documented API is offered for this exact snapshot.</aside>
+    <aside class="promotions" aria-label="Introductory promotion">
+      <h2>Promotion — separate from standard offers</h2>
+      <div class="offer-card"><strong>Intro month</strong><span>€9.90 for the first month only</span></div>
+    </aside>
+    <section id="standard-prices" aria-labelledby="price-heading" data-ready="false">
+      <h2 id="price-heading">Standard monthly offers by city</h2>
+      <p class="loading" role="status">Loading current teaching snapshot…</p>
+      <div id="price-cards" class="grid"></div>
+    </section>
+    <p class="source-note">Use only the standard monthly offers for city comparison. This is a fixed snapshot, not evidence of a live competitor price.</p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ChargeWatch | Charging site status</title>
+  <link rel="stylesheet" href="../shared/style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <main class="shell">
+    <p class="eyebrow">Controlled teaching source · ChargeWatch</p>
+    <h1>Charging sites — operational snapshot</h1>
+    <p>Reference: 16 September 2026, 08:30 CEST. A connector is available when it can be used at the reference time. Illustrative synthetic data.</p>
+    <aside class="notice" aria-label="Source information">Source: ChargeWatch teaching dashboard. A <a href="weekly_summary.csv">weekly CSV summary</a> is available; check its date and grain before deciding whether to use it for this task.</aside>
+    <section class="summary" id="summary" aria-label="Network summary">
+      <div class="summary-card"><span>Sites shown</span><strong id="site-count">…</strong></div>
+      <div class="summary-card"><span>Installed connectors</span><strong id="connector-count">…</strong></div>
+      <div class="summary-card"><span>Available connectors</span><strong id="available-count">…</strong></div>
+    </section>
+    <section id="site-list" aria-labelledby="sites-heading" data-ready="false">
+      <h2 id="sites-heading">Site-level status</h2>
+      <p class="loading" role="status">Loading site snapshot…</p>
+      <section id="north-sites" aria-labelledby="north-heading"><h3 id="north-heading">North zone</h3><div class="grid"></div></section>
+      <section id="south-sites" aria-labelledby="south-heading"><h3 id="south-heading">South zone</h3><div class="grid"></div></section>
+    </section>
+    <div class="site-card" id="card-template" hidden aria-hidden="true"><h3>Card template (not a real site)</h3><p>Available: 99</p></div>
+    <p class="source-note">The snapshot describes one morning. Planned maintenance and temporary unavailability have different operational meanings. The weekly file describes an earlier period.</p>
+  </main>
+</body>
+</html>
