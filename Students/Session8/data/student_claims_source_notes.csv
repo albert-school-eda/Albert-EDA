@@ -1,0 +1,10 @@
+claim_id,source,source_note
+920014,Loss adjuster report,"Recorded claim amount €82,000 for this claim ID."
+920067,Repair estimate,"Recorded claim amount €65,000 for this claim ID."
+920113,Claim owner,"€89,000 export amount; supporting invoice review pending."
+920199,Signed claim form,"Recorded claim amount €4,800 for this claim ID; export says €480,000."
+920044,Identity record,Age 27 at the snapshot; export says 217.
+920121,Policy record,Age 16 appears on the policy; eligibility rule needs owner confirmation.
+920088,Submitted address,Postal code is written 08001; export contains 8001.
+920222,Processing log,Elapsed time 4 days; export contains -4.
+920255,Settlement calculation,Exported ratio 1.280; numerator and denominator are being checked.
