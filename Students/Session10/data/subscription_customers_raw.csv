@@ -1,0 +1,10 @@
+customer_id,acquisition_channel,annual_revenue_eur,customer_name,postcode,source_batch
+D01,Digital,100,Liam Gray,28001,S_2026_annual
+D02,Digital,140,Chloe Perez,28002,S_2026_annual
+D03,Digital,160,Noah Ruiz,28003,S_2026_annual
+D04,Digital,800,Aster Studio,28004,S_2026_annual
+L01,Legacy,120,Eva Simon,28005,S_2026_annual
+L02,Legacy,180,Leo Dubois,28006,S_2026_annual
+L03,Legacy,,Marta Lopez,28007,S_2026_annual
+L04,Legacy,,M. López,28007,S_2026_annual
+D02,Digital,140,Chloe Perez,28002,S_2026_annual

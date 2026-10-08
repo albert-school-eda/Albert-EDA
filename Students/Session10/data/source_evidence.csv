@@ -1,0 +1,5 @@
+evidence_id,related_record,source,evidence
+E01,D02,Export log,The same customer snapshot was replayed once in the annual export.
+E02,D04,Verified annual contract,Net invoiced annual revenue is EUR800. No OCR or decimal error was found.
+E03,L03 / L04,CRM inspection,Similar names and the same postcode. No verified shared identity link is available.
+E04,Legacy channel,Invoice export description,The Legacy channel uses an older export process. Some invoice matches fail; the affected revenue values have not been reconciled.
